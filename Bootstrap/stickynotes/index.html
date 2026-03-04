@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>My Notice Board</title>
+    <style>
+        .notice {
+            display: inline-flex;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .notice div {
+            width: 240px;
+            height: 300px;
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="d-flex" >
+        <!-- Add the class and id for Completed tasks -->
+        <div id="notice-1" class="notice">
+            <!-- Fill your code to create: Completed Tasks -->
+            <div class="bg-success">
+                <h4 class="text-white">Completed Tasks</h4>
+                <p>Till Today</p>
+            </div>
+        </div>
+        <!-- Add the class and id for On Going Tasks -->
+        <div id="notice-2" class="notice" >
+             <!-- Fill your code to create: On Going Tasks -->
+             <div class="bg-info">
+                 <h4 class="text-white">On Going Tasks</h4>
+                 <p>Important</p>
+             </div>
+        </div>
+        <!-- Add the class and id for Upcoming Tasks -->
+         <div id="notice-3" class="notice" >
+            <!-- Fill your code to create: Upcoming Tasks -->
+            <div class="bg-warning">
+                <h4 class="text-white">Upcoming Tasks</h4>
+                <p>To Do List</p>
+            </div>
+        </div>
+        <!-- Add the class and id for Pending Tasks-->
+         <div id="notice-4" class="notice" >
+            <!-- Fill your code to create: Pending Tasks -->
+            <div class="bg-danger">
+                <h4 class="text-white">Pending Tasks</h4>
+                <p>Need Help</p>
+            </div>
+        </div>
+        
+         <!-- Add the class and id for Add New -->
+         <div id="notice-5" class="notice" >
+             <!-- Fill your code to create: Add New -->
+             <div class="bg-info">
+                 <h4 class="text-white">Add New</h4>
+                 <h1 class="text-center">+</h1>
+             </div>
+        </div>
+    </div>
+</div>    
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

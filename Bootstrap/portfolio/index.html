@@ -1,0 +1,89 @@
+<!-- FILL ONLY THE SPECIFIED PART ALONE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 4 Responsive Navbar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    
+    <style>
+        
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="mainNavigation" class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigationBar" aria-control="mainNavigationBar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="mainNavigationBar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white active" href="#">About Me </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">My Family</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Find me here</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+      <!--write your code here for navigation and its links-->
+    </header>
+    <div class="container-fluid m-5">
+        <div class="row">
+            <div class="col">
+           <section>
+             <article>           
+        		<!-- Add the appropriate id and classes for the image to make it responsive and circle -->
+		           <img id="responsiveImg" src="Profile.jpg" alt="responsive image" class="img-fluid rounded-circle img-thumbnail bg-info" >
+		           
+		           
+		           <p id="text">Hi, I am James Bond. Yes, you are right. I'm named after the world famous James Bond Character.
+		           
+		           </p>
+		           <a href="#text" class="btn btn-info">Click here to know more...</a>
+		           
+		              </article>
+             </section>
+        </div>
+     </div>
+             
+		       <div class="row">
+		           <div class="col-sm-6"> 
+		           <h3>My Achievements</h3>
+		           <p>
+		               
+		               A title or icon associated with a user profile or account that indicates the person's skill or rank in an online community, especially on a gaming platform.
+		               I had listed few of my skills and acheivements here. <br/>
+		           </p>
+		           </div>
+    		           <div class="col-sm-6">
+    		                <input type="button" class="btn btn-secondary" value="Click here to know more..."/>
+    		           </div>
+		             </div>
+               
+           </div>
+           <footer class="container-fluid m-5">
+            <p>contact me @ <a href="#">jamesbond@bondsite.com</a></p>
+            </footer>
+       
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
